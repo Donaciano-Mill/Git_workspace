@@ -1,4 +1,0 @@
-hola desde git
-segundo archivo creado
-modificacion 1
-otra modificacion
