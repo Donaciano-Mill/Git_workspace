@@ -1,0 +1,52 @@
+En este archivo se encuentan comandos para el uso de git
+
+pwd ---> arroja la direccion en la que se esta posicionado
+
+mkdir name_dir---> crea un directorio con el nombre name_dir
+
+code . ---> abre visual studio code en el directorio seleccionado
+ 
+git init ---> crea un archivo .git en el directorio
+
+git status ---> retorna el estado actual del repositorio
+
+git add ---> agrega los archivos que se modificaron o agregaron a la fase de stage
+
+ it commit -m "Descripcion" ---> agrega los archicos a la nuve de github
+                                  con la descripcion que se agrega para tener una referencia del 
+                                  cambio que se aplica o el archivo que e agrega
+
+rm name_dir ---> borra el archivo de git
+
+git restore staged --"name_file" ---> remueve un archivo de la etapa de staged
+
+git restore --"name_file" ---> restaura el archivo que se habia elimindado del staged
+
+mv name_file new_name:file ---> este comando se usa para renombrar un archivo
+o usar el comando git mv 
+
+para ignorar archivos y no subirlos a git se crea un archio .gitignore
+y ahi se especifican las rutas e los archivos a ignorar, despues se hace un git add .gitignore
+y asi seran ignorados esos archivos 
+
+git diff ---> muestra los cambios que se generaron en un archivo
+
+git diff --staged ---> muestra los cambios que se generaron en la etapa de staged
+
+git log --oneline ---> muestra los commit que se han echo
+
+git branch ---> muestra las ramas que existen
+
+git checkout -b name_branch ---> crea una rama diferente a la de main para trabajar en ella
+
+git checkout name_branch ---> nos mueve a la rama que se desea
+
+git merge name_branch ---> pasa todos los cambios que se realizan en las ramas al main      
+                           Es importante que este comando se aplique en en la rama main
+
+git push -u origin main ---> crea una rama en github 
+
+git push ---> sube los cambios que se han realizado en la rama
+
+
+
