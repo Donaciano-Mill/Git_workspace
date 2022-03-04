@@ -12,7 +12,7 @@ git status ---> retorna el estado actual del repositorio
 
 git add ---> agrega los archivos que se modificaron o agregaron a la fase de stage
 
- it commit -m "Descripcion" ---> agrega los archicos a la nuve de github
+git commit -m "Descripcion" ---> agrega los archicos a la nuve de github
                                   con la descripcion que se agrega para tener una referencia del 
                                   cambio que se aplica o el archivo que e agrega
 
@@ -48,5 +48,5 @@ git push -u origin main ---> crea una rama en github
 
 git push ---> sube los cambios que se han realizado en la rama
 
-
-
+antes de hacer un push se debe de hacer los commit necesarios para subir los cambios que se desean a githubb, 
+despues ya se puede hacer un push sin problemas y la informacion se guardara en la nuve
