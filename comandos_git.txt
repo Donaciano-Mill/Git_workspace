@@ -48,5 +48,14 @@ git push -u origin main ---> crea una rama en github
 
 git push ---> sube los cambios que se han realizado en la rama
 
-antes de hacer un push se debe de hacer los commit necesarios para subir los cambios que se desean a githubb, 
+Antes de hacer un push se debe de hacer los commit necesarios para subir los cambios que se desean a githubb, 
 despues ya se puede hacer un push sin problemas y la informacion se guardara en la nuve
+
+git remotr add origin _url_ ---> este comando indica si hay servidor remoto y la url que se debe seguir
+                                 Origin indica de donde se va a tomar los archivos que se van a subir
+
+Podemos subir una rama diferente de main a github, pero antes debemops crearla:
+git checkout -b name_branch 
+con esto ya podemos subir cambios a esta rama con e comando
+git push -u origin name_branch
+Asi no modificamos la rama principal y tenemos nuestro codigo en la nuve
